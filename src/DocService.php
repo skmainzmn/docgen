@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Docs;
+namespace Skmainzmn\Docgen;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Storage;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Docs\Interfaces;
+namespace Skmainzmn\Docgen\Interfaces;
 
 interface HasLength
 {

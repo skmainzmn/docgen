@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Docs\Types;
+namespace Skmainzmn\Docgen\Types;
 
-use App\Docs\DocType;
+use Skmainzmn\Docgen\DocType;
 
 class DocBooleanType extends DocType
 {

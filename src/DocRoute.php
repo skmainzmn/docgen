@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Docs;
+namespace Skmainzmn\Docgen;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Routing\Route;

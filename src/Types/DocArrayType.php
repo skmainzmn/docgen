@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Docs\Types;
+namespace Skmainzmn\Docgen\Types;
 
-use App\Docs\DocType;
-use App\Docs\Interfaces\HasLength;
 use Illuminate\Support\Str;
+use Skmainzmn\Docgen\DocType;
+use Skmainzmn\Docgen\Interfaces\HasLength;
 
 class DocArrayType extends DocType implements HasLength
 {

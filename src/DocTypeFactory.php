@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Docs;
+namespace Skmainzmn\Docgen;
 
-use App\Docs\Types\DocArrayType;
-use App\Docs\Types\DocBooleanType;
-use App\Docs\Types\DocDateType;
-use App\Docs\Types\DocIntType;
-use App\Docs\Types\DocNumericType;
-use App\Docs\Types\DocStringType;
+use Skmainzmn\Docgen\Types\DocArrayType;
+use Skmainzmn\Docgen\Types\DocBooleanType;
+use Skmainzmn\Docgen\Types\DocDateType;
+use Skmainzmn\Docgen\Types\DocIntType;
+use Skmainzmn\Docgen\Types\DocNumericType;
+use Skmainzmn\Docgen\Types\DocStringType;
 
 class DocTypeFactory
 {

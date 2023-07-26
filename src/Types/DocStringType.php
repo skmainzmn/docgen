@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Docs\Types;
+namespace Skmainzmn\Docgen\Types;
 
-use App\Docs\DocType;
-use App\Docs\Interfaces\HasLength;
+use Skmainzmn\Docgen\DocType;
+use Skmainzmn\Docgen\Interfaces\HasLength;
 use Exception;
 use Faker\Factory;
 use Illuminate\Support\Str;

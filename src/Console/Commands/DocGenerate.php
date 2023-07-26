@@ -2,10 +2,10 @@
 
 namespace Skmainzmn\Docgen\Console\Commands;
 
-use App\Docs\DocService;
 use Illuminate\Console\Command;
 use JsonException;
 use ReflectionException;
+use Skmainzmn\Docgen\DocService;
 
 class DocGenerate extends Command
 {

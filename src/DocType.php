@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Docs;
+namespace Skmainzmn\Docgen;
 
 use Exception;
 use Illuminate\Support\Arr;

@@ -30,5 +30,12 @@
     "psr-4": {
       "Skmainzmn\\Docgen\\Test\\": "tests/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Skmainzmn\\Docgen\\Providers\\DocgenServiceProvider"
+      ]
+    }
   }
 }

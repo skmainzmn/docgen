@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Docs\Providers;
+namespace Skmainzmn\Docgen\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Skmainzmn\Docgen\Console\Commands\DocGenerate;
