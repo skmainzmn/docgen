@@ -1,0 +1,34 @@
+{
+  "name": "skmainzmn/docgen",
+  "description": "Laravel openAPI v3 Generator",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maxim Nechaev",
+      "email": "skmainzmn@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit"
+    ]
+  },
+  "require": {
+    "php": "^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.0",
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skmainzmn\\Docgen\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Skmainzmn\\Docgen\\Test\\": "tests/"
+    }
+  }
+}
