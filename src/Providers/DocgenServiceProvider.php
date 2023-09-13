@@ -15,7 +15,7 @@ class DocgenServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__ . '/../../config/docgen.php' => config_path('docgen.php')
-            ]);
+            ], 'config');
 
             $this->commands([
                 DocGenerate::class,
