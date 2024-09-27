@@ -1,0 +1,22 @@
+{
+    "name": "irlix/docgen",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Irlix\\Docgen\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Irlix\\Docgen\\IrlixDocgenProvider"
+            ]
+        }
+    }
+}
