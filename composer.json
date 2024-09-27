@@ -1,7 +1,11 @@
 {
     "name": "irlix/docgen",
+    "description": "OpenAPI 3.0 API documentation generator",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "type": "library",
     "require": {
         "php": "^8.3"
     },
